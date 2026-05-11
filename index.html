@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>PRO-Шина | Шиномонтаж</title>
+
+  <link rel="stylesheet" href="style.css">
+
+  <meta name="description" content="Шиномонтаж PRO-Шина. Замена шин, балансировка, ремонт колес. Онлайн запись.">
+</head>
+
+<body>
+
+<header>
+  <div class="container header-container">
+
+    <div class="logo">
+      PRO-Шина
+    </div>
+
+    <nav>
+      <ul>
+        <li><a href="#services">Услуги</a></li>
+        <li><a href="#price">Прайс</a></li>
+        <li><a href="#gallery">Галерея</a></li>
+        <li><a href="#contact">Контакты</a></li>
+      </ul>
+    </nav>
+
+  </div>
+</header>
+
+<section class="hero">
+  <div class="container">
+
+    <h1>Профессиональный шиномонтаж</h1>
+
+    <p>
+      Быстро. Надежно. Круглосуточно.
+    </p>
+
+    <a href="#booking" class="btn">
+      Записаться
+    </a>
+
+  </div>
+</section>
+
+<section id="services" class="services">
+  <div class="container">
+
+    <h2>Наши услуги</h2>
+
+    <div class="cards">
+
+      <div class="card">
+        <h3>Замена шин</h3>
+        <p>Быстрая сезонная переобувка колес любых радиусов.</p>
+      </div>
+
+      <div class="card">
+        <h3>Балансировка</h3>
+        <p>Современное оборудование для точной балансировки.</p>
+      </div>
+
+      <div class="card">
+        <h3>Ремонт проколов</h3>
+        <p>Устранение проколов и боковых порезов.</p>
+      </div>
+
+      <div class="card">
+        <h3>Подкачка колес</h3>
+        <p>Проверка давления и подкачка шин.</p>
+      </div>
+
+    </div>
+
+  </div>
+</section>
+
+<section id="price" class="price">
+  <div class="container">
+
+    <h2>Прайс-лист</h2>
+
+    <table>
+
+  <thead>
+    <tr>
+      <th>Услуга</th>
+      <th>R13-R15</th>
+      <th>R16-R18</th>
+      <th>R19-R22</th>
+    </tr>
+  </thead>
+
+  <tbody id="priceTable">
+  </tbody>
+
+</table>
+
+  </div>
+</section>
+
+<section id="gallery" class="gallery">
+  <div class="container">
+
+    <h2>Галерея</h2>
+
+    <div class="gallery-grid">
+
+      <img src="https://images.unsplash.com/photo-1486006920555-c77dcf18193c?q=80&w=1200" alt="Шиномонтаж">
+
+      <img src="https://images.unsplash.com/photo-1503376780353-7e6692767b70?q=80&w=1200" alt="Колеса">
+
+      <img src="https://images.unsplash.com/photo-1492144534655-ae79c964c9d7?q=80&w=1200" alt="Автосервис">
+
+      <img src="https://images.unsplash.com/photo-1511919884226-fd3cad34687c?q=80&w=1200" alt="Ремонт шин">
+
+    </div>
+
+  </div>
+</section>
+
+<section id="booking" class="booking">
+  <div class="container">
+
+    <h2>Запись на сервис</h2>
+
+    <form id="bookingForm">
+
+      <input
+        type="text"
+        id="name"
+        placeholder="Ваше имя"
+        required
+      >
+
+      <input
+        type="tel"
+        id="phone"
+        placeholder="+7 (___) ___-__-__"
+        required
+      >
+
+      <textarea
+        id="comment"
+        placeholder="Комментарий"
+      ></textarea>
+
+      <button type="submit">
+        Отправить заявку
+      </button>
+
+    </form>
+
+    <p id="successMessage"></p>
+
+  </div>
+</section>
+
+<section id="contact" class="contacts">
+  <div class="container">
+
+    <h2>Контакты</h2>
+
+    <p>
+      Телефон:
+      <a href="tel:+79991234567">
+        +7 (999) 123-45-67
+      </a>
+    </p>
+
+    <p>
+      WhatsApp:
+      <a href="https://wa.me/79991234567" target="_blank">
+        Написать
+      </a>
+    </p>
+
+    <div class="map">
+
+  <iframe
+    src="https://yandex.ru/map-widget/v1/?ll=37.603298%2C55.764856&mode=search&ol=geo&ouri=ymapsbm1%3A%2F%2Fgeo%3Fdata%3DCgg1NjY4NTY0MxJH0KDQvtGB0YHQuNGPLCDQnNC-0YHQutCy0LAsINCi0LLQtdGA0YHQutCw0Y8g0YPQu9C40YbQsCwgMTUiCg2M4BZCFWm2X0I%2C&z=16"
+    width="100%"
+    height="350"
+    frameborder="0"
+    allowfullscreen="true">
+  </iframe>
+
+</div>
+
+  </div>
+</section>
+
+<footer>
+  <div class="container">
+<p>
+      © 2026 PRO-Шина. Все права защищены.
+    </p>
+
+  </div>
+</footer>
+
+<script src="script.js"></script>
+
+</body>
+</html>
